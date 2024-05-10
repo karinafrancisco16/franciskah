@@ -14,48 +14,12 @@
 
     <h1>MAT.II</h1>
 
-    <span>Aqui é a minha primeira experiência no GitHub.</span> <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-    </head>
+    <span>Aqui é a minha primeira experiência no GitHub.</span> 
+    
+    
     <body>
-        
-    </body>
-    </html>important
 
 </center>
     
 </body>
 </html>
-// essa função constrói e retorna o botão baseado no paramentro 'properties'
-function buildButton( properties ) {
-
-	var button = document.createElement('button');
-	button.textContent = properties.title;
-	button.className = properties.className;
-
-	button.addEventListener('click', function() {
-
-		// adiciona a action aqui
-		// pode ser usar uma propriedade chamada 'action' em properties pra criar isso
-
-	});
-
-	return button;
-
-}
-
-// essa função inicia a criação dos botões
-// a quantidade de botões a ser criado se base no tamanho do array 'dataButtonsArray'
-function createButtons( parentElement, dataButtonsArray ) {
-
-	for (var i = dataButtonsArray.length; i--; ) {
-
-		parentElement.appendChild(buildButton(dataButtonsArray[i]));
-
-	}
-
-}
