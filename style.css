@@ -28,7 +28,7 @@ h3 {
 footer {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
-    color: rgb(192, 115, 0);
+    color: rgb(192, 115, 0); !important;
     text-align: center;
     padding: 20px 0;
     position: fixed;
