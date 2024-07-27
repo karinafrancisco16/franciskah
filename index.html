@@ -45,3 +45,64 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap">
+    <style>
+        body {
+            font-family: 'Great Vibes', cursive;
+        }
+        
+        .moving-text {
+            font-size: 24px;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .moving-text span {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            animation: move-text 10s linear infinite, change-color 2s linear infinite;
+        }
+        
+        @keyframes move-text {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        @keyframes change-color {
+            0% {
+                color: red;
+            }
+            25% {
+                color: blue;
+            }
+            50% {
+                color: green;
+            }
+            75% {
+                color: orange;
+            }
+            100% {
+                color: red;
+            }
+        }
+    </style>
+    <title>Moving and Color Changing Text</title>
+</head>
+<body>
+    <div class="moving-text">
+        <span>Your moving and color changing text here</span>
+    </div>
+</body>
+</html>
