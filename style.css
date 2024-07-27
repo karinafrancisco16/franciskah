@@ -46,3 +46,9 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+body {
+    background-image: url('vertical-shot-road-with-magnificent-mountains-blue-sky-captured-california\ \(1\).jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa ao rolar a página */
+}
