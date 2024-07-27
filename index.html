@@ -106,3 +106,54 @@
     </div>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Alteração de Rodapé</title>
+    <style>
+        body {
+            background-image: url('URL_DA_IMAGEM_DE_FUNDO'); /* Substitua com a URL da sua imagem de fundo */
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            margin: 0;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+    </header>
+    
+    <main>
+        <h2>Corpo do Texto</h2>
+        <p>Bem-vindo ao meu site!</p>
+        <button onclick="mudarTexto()">Clique aqui</button>
+    </main>
+
+    <footer id="rodape">
+        Texto original do rodapé
+    </footer>
+
+    <script>
+        function mudarTexto() {
+            document.getElementById('rodape').innerText = 'Olá, te peguei';
+        }
+    </script>
+</body>
+</html>
