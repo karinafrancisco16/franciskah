@@ -180,3 +180,41 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Título</title>
+    <style>
+        #message {
+            display: none;
+            color: red;
+            font-size: 24px; /* Aumente o valor para ajustar o tamanho da fonte */
+            margin-top: 10px; /* Ajusta o espaço entre o botão e a mensagem */
+        }
+    </style>
+</head>
+<body>
+    <!-- Conteúdo existente do seu corpo -->
+    <h1>CLIQUE, APENAS CLIQUE</h1>
+    <p>TENTOU...........</p>
+    <img src="sua-imagem.jpg" alt="Descrição da imagem">
+
+    <!-- Adicione aqui o novo botão e a mensagem -->
+    <button id="myButton">É ESSE BOTÃO</button>
+    <div id="message">olá, te peguei</div>
+
+    <!-- Scripts existentes -->
+    <script>
+        // Código JavaScript existente, se houver
+    </script>
+
+    <!-- Adicione aqui o novo script -->
+    <script>
+        document.getElementById('myButton').addEventListener('click', function() {
+            document.getElementById('message').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
