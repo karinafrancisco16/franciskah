@@ -154,3 +154,29 @@
     </script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frase ao Clicar no Botão</title>
+    <style>
+        #message {
+            display: none;
+            color: red;
+            font-size: 24px; /* Aumente o valor para ajustar o tamanho da fonte */
+            margin-top: 10px; /* Ajusta o espaço entre o botão e a mensagem */
+        }
+    </style>
+</head>
+<body>
+    <button id="myButton">Clique aqui</button>
+    <div id="message">olá, te peguei</div>
+
+    <script>
+        document.getElementById('myButton').addEventListener('click', function() {
+            document.getElementById('message').style.display = 'block';
+        });
+    </script>
+</body>
+</html>
