@@ -16,7 +16,7 @@ body {
     height: 100%;
     background-color: rgb(136, 39, 227);
     background-repeat: no-repeat;
-    background-size: 100%;
+    overflow-y: scroll;
 }
 
 h3 {
@@ -52,5 +52,6 @@ footer a:hover {
 body {
     background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
     background-repeat: no-repeat; /* Evita que a imagem se repita */
+    overflow-y: scroll;
     background-attachment: fixed; /* Faz com que a imagem de fundo fique fixa ao rolar a página */
 }
