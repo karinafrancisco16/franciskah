@@ -5,32 +5,26 @@
   box-sizing: border-box;
 }
 
-/* Estilo geral */
+/* Fonte e corpo */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
-  color: #333;
+  font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
 }
 
 /* Cabeçalho */
 header {
-  background-color: #5a3ea1;
+  background-color: #4a90e2;
   color: #fff;
-  padding: 30px 20px;
+  padding: 20px;
   text-align: center;
-}
-
-header h1 {
-  font-size: 2.2em;
-  margin-bottom: 10px;
 }
 
 header nav a {
   color: #fff;
-  margin: 0 12px;
+  margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
 }
 
 header nav a:hover {
@@ -39,15 +33,23 @@ header nav a:hover {
 
 /* Conteúdo principal */
 main {
-  max-width: 900px;
-  margin: 40px auto;
-  padding: 0 20px;
+  padding: 20px;
 }
 
-/* Seções */
 section {
-  margin-bottom: 50px;
+  margin: 40px 0;
 }
 
-section h2 {
-  color: #5a3ea1
+h2 {
+  color: #4a90e2;
+  margin-bottom: 10px;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #222;
+  color: #fff;
+  font-size: 14px;
+}
